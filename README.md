@@ -23,7 +23,7 @@ example:
 (2, 5) ==> bar element from node at index 2 and 5  
 
 #### Young's Modulus (E)
-Only E value can be defined to be assigned to all elements  
+Only one E value can be defined to be assigned to all elements  
 Value in kN/m2
 
 #### Bar area
