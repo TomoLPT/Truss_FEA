@@ -13,22 +13,22 @@ example:
 
 #### Forces:
 [(node_index, x, y, z), ...]  
-where x, y, z are magnitude of the forces in kN
-example:
+where x, y, z are magnitude of the forces in kN  
+example:  
 (3, 1, 1, 0) ==> force at node of index 3,  1kN in x-direction, 1kN in y-direction, 0 in z
 
 #### Bars:
-[(node_1, node_2), ...]
-example:
-(2, 5) ==> bar element from node at index 2 and 5
+[(node_1, node_2), ...]  
+example:  
+(2, 5) ==> bar element from node at index 2 and 5  
 
 #### Young's Modulus (E)
-Only E value can be defined to be assigned to all elements
+Only E value can be defined to be assigned to all elements  
 Value in kN/m2
 
 #### Bar area
-Only one cross sectional area can be defined to be assigned to all elements
-Value in m2
+Only one cross sectional area can be defined to be assigned to all elements  
+Value in m2  
 
 ~~~python
 nodes_test = [(0, 0, 0, 0, 0, 0), (5, 0, 0, 1, 1, 0), (0, 5, 0, 0, 0, 0)] #0 = restrained
