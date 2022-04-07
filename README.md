@@ -6,13 +6,13 @@ A python script to run a finite element analysis of a 3D pin jointed truss. Base
 
 Specify your parameters and geometry in the following format:
 #### Nodes:
-[(x, y, z, fixity_x, fixity_y, fixity_z), ...] 
-where 1 = free, 0 = pinned for fixities
-example: 
+[(x, y, z, fixity_x, fixity_y, fixity_z), ...]  
+where 1 = free, 0 = pinned for fixities  
+example:  
 (5, 1, 10, 0, 0, 1) ==> node at position x=5, y=1, z=10, pinned in the x and y direction but free to rotate in the z direction.
 
 #### Forces:
-[(node_index, x, y, z), ...]
+[(node_index, x, y, z), ...]  
 where x, y, z are magnitude of the forces in kN
 example:
 (3, 1, 1, 0) ==> force at node of index 3,  1kN in x-direction, 1kN in y-direction, 0 in z
